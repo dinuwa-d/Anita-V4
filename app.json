@@ -7,7 +7,9 @@
   "stack": "heroku-24",
   "env": {
     "SESSION_ID": {
-      "description": "Put your SESSION_ID here.",
+      "description": "
+{"noiseKey":{"private":{"type":"Buffer","data":"QMl/aSuABaiaehRclgutm9RLdVGt1Ezjk38ls0nKkWk="},"public":{"type":"Buffer","data":"t+jwXZjMa9LSmZ4YbB3WGjAQbFwn64LoGwXOWJ2Q9QM="}},"pairingEphemeralKeyPair":{"private":{"type":"Buffer","data":"CFBVr19YLWzg861dF6zlOYSe2RZ22kb+dzuRSNWtdW4="},"public":{"type":"Buffer","data":"qpQTeduRPpxQZ7ZDL7IjPDq/ps0qugK6Va2RclGtB0w="}},"signedIdentityKey":{"private":{"type":"Buffer","data":"ALzyEtVKFn+iG6rvJe6m/R7F70311ylwAgzXDcL/amE="},"public":{"type":"Buffer","data":"RzwEUCFrxKNftAL2fZettLYkA/aaPzJRHWIXUBgTYSM="}},"signedPreKey":{"keyPair":{"private":{"type":"Buffer","data":"+BaPWZqtkh+MVtap+8S21QNeQyeEg62TJTmDVZEskGA="},"public":{"type":"Buffer","data":"I3XgKGAHwojRbX5+100E3J7aycmV1Eu9VxgcWUo0Dn0="}},"signature":{"type":"Buffer","data":"oA/kslaUiJeTnjWvUXIVxynI2KzQ+CE5XhMfVagq+6XVN3lVHCo377qfEbFNx1wyJhpOEwWt8eP8jyoMOr3cig=="},"keyId":1},"registrationId":221,"advSecretKey":"dkWZ90BM2bRsLE2xanbTMUwE9wQphnpbwfTjw98DKMU=","processedHistoryMessages":[{"key":{"remoteJid":"94789285490@s.whatsapp.net","fromMe":true,"id":"06A385CAC12EAE544DA6F2BF1996DB43"},"messageTimestamp":1750558202},{"key":{"remoteJid":"94789285490@s.whatsapp.net","fromMe":true,"id":"CF252BCA7445B19B45A7AEF339FCD407"},"messageTimestamp":1750558202},{"key":{"remoteJid":"94789285490@s.whatsapp.net","fromMe":true,"id":"9B56B71A6F4736E53C1D7839E3676475"},"messageTimestamp":1750558205}],"nextPreKeyId":31,"firstUnuploadedPreKeyId":31,"accountSyncCounter":1,"accountSettings":{"unarchiveChats":false},"registered":true,"pairingCode":"CYRILDEV","me":{"id":"94789285490:1@s.whatsapp.net","lid":"155310966751453:1@lid","name":"ᴀꜱᴍɪᴛʜ ꜰᴀᴋᴇ ɴᴀᴍʙᴇʀꜱ ꜱᴛᴏʀᴇ"},"account":{"details":"COmcyW4Q8MvdwgYYASAAKAA=","accountSignatureKey":"jz6klhFJwzOkNkQwKGN2e5NiIZRULH4jKDfDgV9lAkM=","accountSignature":"oJciXiFqKK0Q8BfLPcK2MKmD6RQDNSVJyr8ersuMMqIQnnmEuAC8TfAg7Pmq6lb1MK4QCh9++mQj2CbvLVJxDA==","deviceSignature":"50Uf7Omsc29xax8P3basa4q60JHxRJv28bchwxbR0YPyLZo/usDcQuYk0e8Br+wGRtTwTg7cfLKA8EURElX9hQ=="},"signalIdentities":[{"identifier":{"name":"94789285490:1@s.whatsapp.net","deviceId":0},"identifierKey":{"type":"Buffer","data":"BY8+pJYRScMzpDZEMChjdnuTYiGUVCx+Iyg3w4FfZQJD"}}],"platform":"android","routingInfo":{"type":"Buffer","data":"CAgIBQ=="},"lastAccountSyncTimestamp":1750558200,"lastPropHash":"2V77qU","myAppStateKeyId":"AAAAAMma"}
+.",
       "value": ""
     },
     "PREFIX": {
@@ -20,8 +22,7 @@
       "required": false
     },
     "AUTO_STATUS_REACT": {
-      "description": "Set true to auto-react to Status.",
-      "value": "false",
+      "description": "Set true to auto-react to Status.",      "value": "false",
       "required": false
     },
       "ANTIDELETE": {
